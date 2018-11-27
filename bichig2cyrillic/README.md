@@ -6,7 +6,7 @@ using deep learning.
 
 ## Dependencies
 Facebook's [fairseq](https://github.com/pytorch/fairseq) project is used to train the converter
-which is added as submodule. To install it, execute:
+which is added as a submodule. To install it, execute:
 ```bash
 git clone --recursive https://github.com/tugstugi/mongolian-nlp.git
 cd mongolian-nlp/bichig2cyrillic/fairseq
@@ -35,7 +35,7 @@ python fairseq/preprocess.py \
 
 ## Mongolian Script to Cyrillic Script
 
-To train a [fully convolutional seq2seq](https://arxiv.org/abs/1705.03122) model for 20 epochs, execute:
+To train a [fully convolutional seq2seq](https://arxiv.org/abs/1705.03122) character model for 20 epochs, execute:
 ```bash
 mkdir -p checkpoints/bichig2cyrillic
 python fairseq/train.py  --optimizer adam --lr 5e-5 --min-lr 5e-10 --lr-shrink 0.5 \
