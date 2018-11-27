@@ -1,0 +1,3 @@
+[submodule "bichig2cyrillic/fairseq"]
+	path = bichig2cyrillic/fairseq
+	url = https://github.com/pytorch/fairseq.git
