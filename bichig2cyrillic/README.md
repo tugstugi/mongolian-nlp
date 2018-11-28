@@ -45,7 +45,7 @@ python fairseq/train.py  --optimizer adam --lr 5e-5 --min-lr 5e-10 --lr-shrink 0
 ```
 After training, the training loss should be under 0.02.
 
-Now convert some Mongolian script texts to cyrillic:
+Now convert some Mongolian script [texts](http://mongoltimes.blogspot.com/2015/08/blog-post_21.html) to cyrillic:
 ```bash
 echo "ᠬᠡᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠦᠭᠡ ᠶᠠᠷᠢᠨ᠎ᠠ ᠭᠡᠳᠡᠭ\nᠬᠡᠷᠡᠭ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠲᠤᠯᠤᠯᠳᠤᠭᠠᠨ ᠶᠤᠮ\nᠬᠠᠯᠠᠭᠤᠨ ᠬᠦᠢᠲᠡᠨ ᠶᠠᠮᠠᠷ ᠴᠤ ᠵᠡᠪᠰᠡᠭ ᠡᠴᠡ\nᠬᠠᠲᠠᠭᠤ ᠵᠦᠭᠡᠯᠡᠨ ᠦᠭᠡ ᠬᠦᠴᠦᠲᠡᠢ" | \
   python convert.py --path checkpoints/bichig2cyrillic/checkpoint_best.pt bichig2cyrillic-bin 
