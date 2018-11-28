@@ -1,6 +1,6 @@
 The traditional Mongolian script uses an old pronunciation which differs
 from the modern Mongolian spoken language. This experiment tries to convert
-between the Mongolian script (old pronunciation) to the cyrillic script (modern pronunciation)
+between the Mongolian script (old pronunciation) and the cyrillic script (modern pronunciation)
 using deep learning.
 
 
@@ -57,6 +57,9 @@ The output should look:
 халуун хүйтэн ямар ч зэвсгээс
 хатуу зүглэн үгээ хүчтэй
 ```
+If you try this network on the Mongolian script texts found on internet, it will **fail**! Because the majority of the Mongolian script texts are misspelled. See for more information: [Coping with Problems of Unicoded Traditional
+Mongolian](http://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-075.pdf)
+
 
 ## Cyrillic to Mongolian Script
 
