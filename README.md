@@ -34,3 +34,7 @@ This repo will contain a list of useful resources for Mongolian NLP and also my 
   * PyTorch
 * Mongolian script OCR
   * PyTorch, to be released
+
+## Mongolian Text Classification
+* [mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
+  * Tensorflow news classification
