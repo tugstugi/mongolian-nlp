@@ -2,7 +2,7 @@ This repo will contain a list of useful resources for Mongolian NLP and also my 
 
 
 ## Datasets
-* TTS [dataset](https://www.dropbox.com/s/dafueq0w278lbz6/mbspeech-csv.zip?dl=1) created from the Mongolian Bible
+* LJSpeech like male voice TTS [dataset](https://www.dropbox.com/s/dafueq0w278lbz6/mbspeech-csv.zip?dl=1) created from the Mongolian Bible
   * used in [pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * use [dl_and_preprop_dataset.py](https://github.com/tugstugi/pytorch-dc-tts/blob/master/dl_and_preprop_dataset.py) to download the audio files
 * [Eduge news classification dataset](https://www.dropbox.com/s/h5bindkdhn1e6ud/news.csv.gz?dl=0)
