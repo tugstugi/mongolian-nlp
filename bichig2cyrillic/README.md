@@ -59,17 +59,16 @@ The above model outputs:
 
 ## Mongolian Script to Cyrillic Script
 
-Similar to above. Here some conversion example:
+Similar to above. Here some conversion example from the Mongolian president's [website](http://president.mn/mng/?p=2206):
 ```bash
-echo "ᠬᠡᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠦᠭᠡ ᠶᠠᠷᠢᠨ᠎ᠠ ᠭᠡᠳᠡᠭ\nᠬᠡᠷᠡᠭ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠲᠤᠯᠤᠯᠳᠤᠭᠠᠨ ᠶᠤᠮ\nᠬᠠᠯᠠᠭᠤᠨ ᠬᠦᠢᠲᠡᠨ ᠶᠠᠮᠠᠷ ᠴᠤ ᠵᠡᠪᠰᠡᠭ ᠡᠴᠡ\nᠬᠠᠲᠠᠭᠤ ᠵᠦᠭᠡᠯᠡᠨ ᠦᠭᠡ ᠬᠦᠴᠦᠲᠡᠢ" | \
+echo "ᠮᠣᠩ᠋ᠭᠣᠯ ᠤᠯᠤᠰ ᠤᠨ ᠶᠡᠷᠦᠩᠬᠡᠢᠢᠯᠡᠭᠴᠢ ᠬ ∙ ᠪᠠᠲᠤᠲᠤᠯᠭ᠎ᠠ ᠥᠨᠥᠳᠥᠷ ᠧᠦ᠋ᠷᠣᠫᠠ ᠢᠢᠨ ᠬᠣᠯᠪᠣᠭ᠎ᠠ\nᠲᠡᠭᠦᠨ ᠦ ᠭᠡᠰᠢᠭᠦᠨ ᠣᠷᠣᠨ ᠨᠤᠭᠤᠳ ᠠᠴᠠ ᠮᠣᠩ᠋ᠭᠣᠯ ᠤᠯᠤᠰ ᠲᠤ ᠰᠠᠭᠤᠷᠢᠨ ᠪᠣᠯᠤᠨ ᠬᠠᠪᠰᠤᠷᠤᠨ \nᠰᠠᠭᠤᠭ᠎ᠠ ᠣᠨᠴᠠ ᠪᠥᠭᠡᠳ ᠪᠦᠷᠢᠨ ᠡᠷᠬᠡᠲᠦ ᠡᠯᠴᠢᠨ ᠰᠠᠢᠢᠳ ᠨᠠᠷ ᠢ ᠬᠦᠯᠢᠶᠡᠨ ᠠᠪᠴᠤ ᠠᠭᠤᠯᠵᠠᠪᠠ" | \
   python bichig2cyrillic.py --path checkpoints/bichig2cyrillic/checkpoint_best.pt bichig2cyrillic-bin 
 ```
 The output should look:
 ```
-хэн хүн тэй үг ярина гэдэг
-хэрэг дээр бэн тулалдаан юм
-халуун хүйтэн ямар ч зэвсгээс
-хатуу зүглэн үгээ хүчтэй
+монгол улсын ерөнхийлөгч х баттулга өнөөдөр европийн холбоо
+түүний гишүүн орнуудаас монгол улсад суурин болон хавсран
+суугаа онц бүгээд бүрэн эрхэт элчин сайд нарыг хүлээн авч уулзав
 ```
 If you try this network on the Mongolian script texts found on internet, it will **fail**! Because the majority of the Mongolian script texts are misspelled. See for more information: [Coping with Problems of Unicoded Traditional
 Mongolian](http://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-075.pdf)

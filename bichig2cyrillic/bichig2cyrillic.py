@@ -142,14 +142,14 @@ def main(args):
         *[model.max_positions() for model in models]
     )
 
-    bichig_vocab = " ᠠᠢᠡᠨᠭᠤᠦᠬᠷᠳᠯᠪᠶᠰᠮᠣᠴᠲ᠎ᠵᠥᠩ᠋ᠸᠱᠫᠧᠺᠽᠹ᠍ᠼᠾᡀ"
+    bichig_vocab = " ᠠᠢᠡᠨᠭᠤᠦᠬᠷᠳᠯᠪᠶᠰᠮᠣᠴᠲ᠎ᠵᠥᠩ᠋ᠸᠱᠫᠧᠺᠽᠹ᠍ᠼᠾᡀ" + chr(0x202f)
 
     def prepare(inputs):
         cleaned_inputs = []
         for line in inputs:
             line = "".join([c for c in line if c in bichig_vocab])
             if len(line) > 0:
-                cleaned_inputs.append(" ".join(line.replace(' ','#')))
+                cleaned_inputs.append(" ".join(line.replace(' ','#').replace(chr(0x202f),'_')))
         return cleaned_inputs
 
     def compress(line):
