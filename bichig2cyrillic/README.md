@@ -32,23 +32,30 @@ python fairseq/preprocess.py \
   --destdir cyrillic2bichig-bin
 ```
 
+## Cyrillic to Mongolian Script
+For an online Colab demo, visit: [Cyrillic2Bichig.ipynb](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/bichig2cyrillic/notebooks/Cyrillic2Bichig.ipynb)
+
+To train a [transformer](https://arxiv.org/abs/1706.03762) character model for 30 epochs, execute:
+```bash
+python fairseq/train.py  --optimizer adam --lr 5e-5 --min-lr 5e-10 --lr-shrink 0.5 \
+  --max-tokens 1000 --arch transformer --clip-norm 0.5 \
+  --max-epoch 30 \
+  --save-dir checkpoints/cyrillic2bichig cyrillic2bichig-bin
+```
+After training, the training loss should be under 0.01.
+
+Now convert some cyrillic [texts](http://dovchoo_93.blog.gogo.mn/read/entry47697) to the traditional Mongolian script:
+```bash
+echo "Хэн хүнтэй үг ярина гэдэг\nХэрэг дээрээ тулалдаан юм\nХалуун хүйтэн ямар ч зэвсгээс\nХатуу зөөлөн үг хүчтэй" | \
+  python cyrillic2bichig.py --path checkpoints/cyrillic2bichig/checkpoint_best.pt cyrillic2bichig-bin
+```
 
 ## Mongolian Script to Cyrillic Script
 
-To train a [fully convolutional seq2seq](https://arxiv.org/abs/1705.03122) character model for 20 epochs, execute:
-```bash
-mkdir -p checkpoints/bichig2cyrillic
-python fairseq/train.py  --optimizer adam --lr 5e-5 --min-lr 5e-10 --lr-shrink 0.5 \
-  --max-tokens 1000 --arch fconv --clip-norm 0.1 \
-  --max-epoch 20 \
-  --save-dir checkpoints/bichig2cyrillic bichig2cyrillic-bin
-```
-After training, the training loss should be under 0.02.
-
-Now convert some Mongolian script [texts](http://mongoltimes.blogspot.com/2015/08/blog-post_21.html) to cyrillic:
+Similar to above. Here some conversion example:
 ```bash
 echo "ᠬᠡᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠦᠭᠡ ᠶᠠᠷᠢᠨ᠎ᠠ ᠭᠡᠳᠡᠭ\nᠬᠡᠷᠡᠭ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠲᠤᠯᠤᠯᠳᠤᠭᠠᠨ ᠶᠤᠮ\nᠬᠠᠯᠠᠭᠤᠨ ᠬᠦᠢᠲᠡᠨ ᠶᠠᠮᠠᠷ ᠴᠤ ᠵᠡᠪᠰᠡᠭ ᠡᠴᠡ\nᠬᠠᠲᠠᠭᠤ ᠵᠦᠭᠡᠯᠡᠨ ᠦᠭᠡ ᠬᠦᠴᠦᠲᠡᠢ" | \
-  python convert.py --path checkpoints/bichig2cyrillic/checkpoint_best.pt bichig2cyrillic-bin 
+  python bichig2cyrillic.py --path checkpoints/bichig2cyrillic/checkpoint_best.pt bichig2cyrillic-bin 
 ```
 The output should look:
 ```
@@ -59,8 +66,3 @@ The output should look:
 ```
 If you try this network on the Mongolian script texts found on internet, it will **fail**! Because the majority of the Mongolian script texts are misspelled. See for more information: [Coping with Problems of Unicoded Traditional
 Mongolian](http://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-075.pdf)
-
-
-## Cyrillic to Mongolian Script
-
-Looks similar to above. Replace `bichig2cyrillic` with `cyrillic2bichig`.
