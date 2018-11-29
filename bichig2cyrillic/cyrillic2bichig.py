@@ -142,18 +142,18 @@ def main(args):
         *[model.max_positions() for model in models]
     )
 
-    bichig_vocab = " ᠠᠢᠡᠨᠭᠤᠦᠬᠷᠳᠯᠪᠶᠰᠮᠣᠴᠲ᠎ᠵᠥᠩ᠋ᠸᠱᠫᠧᠺᠽᠹ᠍ᠼᠾ=ᡀ"
+    cyrillic_vocab = " абвгдеёжзийклмноөпрстуүфхцчшъыьэюя"
 
     def prepare(inputs):
         cleaned_inputs = []
         for line in inputs:
-            line = "".join([c for c in line if c in bichig_vocab])
+            line = "".join([c.lower() for c in line if c.lower() in cyrillic_vocab])
             if len(line) > 0:
-                cleaned_inputs.append(" ".join(line.replace(' ','_')))
+                cleaned_inputs.append(" ".join(line.replace(' ','#')))
         return cleaned_inputs
 
     def compress(line):
-        return line.replace(' ', '').replace('_', ' ')
+        return line.replace(' ', '').replace('#', ' ').replace('_', chr(0x202f))
 
     for inputs in buffered_read(args.buffer_size):
         prepared_inputs = prepare(inputs)
