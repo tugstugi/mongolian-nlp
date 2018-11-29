@@ -14,10 +14,10 @@ pip install -r requirements.txt
 python setup.py build develop
 ```
 
-Modern Mongolian song lyrics (80K lines) are converted with
+80K lines modern Mongolian song lyrics are converted with
 the Inner Mongolian University's [online translator tool](http://trans.mglip.com/EnglishC2T.aspx)
 to the Mongolian script and used as the training [dataset](lyrics.txt.gz).
-To prepare the dataset to use with `fairseq`, execute:
+To prepare binarized datasets to use with `fairseq`, execute:
 ```bash
 python create_dataset.py
 # binarized dataset for Mongolian script to cyrillic
@@ -44,10 +44,17 @@ python fairseq/train.py  --optimizer adam --lr 5e-5 --min-lr 5e-10 --lr-shrink 0
 ```
 After training, the training loss should be under 0.01.
 
-Now convert some cyrillic [texts](http://dovchoo_93.blog.gogo.mn/read/entry47697) to the traditional Mongolian script:
+Now convert some cyrillic [texts](http://dovchoo_93.blog.gogo.mn/read/entry47697) into the traditional Mongolian script:
 ```bash
 echo "Хэн хүнтэй үг ярина гэдэг\nХэрэг дээрээ тулалдаан юм\nХалуун хүйтэн ямар ч зэвсгээс\nХатуу зөөлөн үг хүчтэй" | \
   python cyrillic2bichig.py --path checkpoints/cyrillic2bichig/checkpoint_best.pt cyrillic2bichig-bin
+```
+The above model outputs:
+```
+ᠬᠡᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠦᠭᠡ ᠶᠠᠷᠢᠨ᠎ᠠ ᠭᠡᠳᠡᠭ
+ᠬᠡᠷᠡᠭ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠲᠤᠯᠤᠯᠳᠤᠭᠠᠨ ᠶᠤᠮ
+ᠬᠠᠯᠠᠭᠤᠨ ᠬᠦᠢᠲᠡᠨ ᠶᠠᠮᠠᠷ ᠴᠤ ᠵᠡᠪᠰᠡᠭ ᠡᠴᠡ
+ᠬᠠᠲᠠᠭᠤ ᠵᠥᠭᠡᠯᠡᠨ ᠦᠭᠡ ᠬᠦᠴᠦᠲᠡᠢ
 ```
 
 ## Mongolian Script to Cyrillic Script
