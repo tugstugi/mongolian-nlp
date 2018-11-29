@@ -11,6 +11,8 @@ This repo will contain a list of useful resources for Mongolian NLP and also my 
 `спорт`, `технологи`, `боловсрол` and `байгал орчин`
 * ****`DATASET`**** [11-11.mn government agency complaint dataset](https://www.kaggle.com/enqush/mongolian-government-agency-1111mn-dataset/home)
   * 80K with 5 categories: `санал хүсэлт`, `гомдол`, `шүүмжлэл`, `талархал` and `өргөдөл`
+* ****`DATASET`**** [online news corpus](https://yadi.sk/d/z5e3MVnKvFvF6w?fbclid=IwAR2wRJ4fRRMSDI8rhbNLdU2n_RiK08hU2rKwXwI7rc6JN2YNTeTna8xOOlg)
+  * 700 million words
 
 ## Mongolian TTS
 * ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
