@@ -23,6 +23,8 @@ This repo will contain a list of useful resources for Mongolian NLP and also my 
 * ****`TF`**** [tugstugi/Tacotron-2](https://github.com/tugstugi/Tacotron-2) fork of [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2) adapted for
 the Mongolian Bible dataset
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS.ipynb)
+* ****`DEMO`**** Yet another HMM? [TTS online demo](http://178.128.108.243/tts/)
+  * 1x male
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
