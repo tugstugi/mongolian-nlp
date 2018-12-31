@@ -13,9 +13,10 @@ This repo will contain a list of useful resources for Mongolian NLP and also my 
   * 80K with 5 categories: `санал хүсэлт`, `гомдол`, `шүүмжлэл`, `талархал` and `өргөдөл`
 * ****`DATASET`**** [online news corpus](https://yadi.sk/d/z5e3MVnKvFvF6w?fbclid=IwAR2wRJ4fRRMSDI8rhbNLdU2n_RiK08hU2rKwXwI7rc6JN2YNTeTna8xOOlg)
   * 700 million words
-* ****`DATASET`**** [220K Mongolian personal names](datasets/mongolian_personal_names.csv.gz) from [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
-* ****`DATASET`**** [90K Mongolian clan/family names](datasets/mongolian_clan_names.csv.gz) from [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
-* ****`DATASET`**** [180K Mongolian company names](datasets/mongolian_company_names.csv.gz) from [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
+* [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
+  * ****`DATASET`**** [220K Mongolian personal names](datasets/mongolian_personal_names.csv.gz)
+  * ****`DATASET`**** [90K Mongolian clan/family names](datasets/mongolian_clan_names.csv.gz)
+  * ****`DATASET`**** [180K Mongolian company names](datasets/mongolian_company_names.csv.gz)
 
 ## Mongolian TTS
 * ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
