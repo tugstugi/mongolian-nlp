@@ -19,8 +19,6 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * ****`DATASET`**** [180K Mongolian company names](datasets/mongolian_company_names.csv.gz)
 
 ## Mongolian TTS
-* ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
-  * 1x male and 2x female voices
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/pytorch-dc-tts/blob/master/notebooks/MongolianTTS.ipynb)
   * ****`DATASET`**** LJSpeech like male voice [dataset](datasets/MBSpeech-1.0-csv.zip) created from the Mongolian Bible
@@ -28,6 +26,8 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 the Mongolian Bible dataset
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS.ipynb)
   * ****`DEMO`**** [speaker adaptation Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS_Elbegdorj.ipynb) for the former Mongolian president Elbegdorj. The Tacotron model trained with the 5 hours Mongolian Bible dataset was fine tuned with a 10 minutes dataset created from a Elbegdorj's speech.
+* ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
+  * 1x male and 2x female voices
 * ****`DEMO`**** Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК
   * 1x male and 1x female
 * ****`DEMO`**** [Tacotron2? based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
