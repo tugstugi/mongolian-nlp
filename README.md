@@ -39,6 +39,7 @@ the Mongolian Bible dataset
   
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
+* ****`DEMO`**** [Mongolian script OCR demo](http://ocr.mglip.com/OcrDemo) of the Inner Mongolian university
 * ****`PYTORCH`**** [tugstugi/bichig2cyrillic](bichig2cyrillic/) Mongolian script to (and back) cyrillic converter
   * ****`DEMO`**** [Cyrillic to Mongolian Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/bichig2cyrillic/notebooks/Cyrillic2Bichig.ipynb)
 * ****`PYTORCH`**** Mongolian script OCR to be released
