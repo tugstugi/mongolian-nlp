@@ -1,3 +1,8 @@
+aeneas
 Tacotron-2
+taco_pretrained.tar.gz
 finetuneas.*
 *.json
+.ipynb_checkpoints/
+cookie
+Untitled.ipynb
