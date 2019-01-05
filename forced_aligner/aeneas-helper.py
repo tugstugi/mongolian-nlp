@@ -11,6 +11,10 @@ from __future__ import print_function
 from aeneas.language import Language
 from aeneas.ttswrappers.basettswrapper import BaseTTSWrapper
 
+from os import path
+
+tacotron2_synthesizer_path = path.join(path.dirname(path.realpath(__file__)), 'aeneas-helper.sh')
+
 
 class CustomTTSWrapper(BaseTTSWrapper):
     #
@@ -27,10 +31,10 @@ class CustomTTSWrapper(BaseTTSWrapper):
     #
     # aeneas seems to optimized for espeak which produce fast speeches. So fine tune the sample rate!
     #
-    OUTPUT_AUDIO_FORMAT = ("pcm_f32le", 1, int(22050*0.73))
+    OUTPUT_AUDIO_FORMAT = ("pcm_f32le", 1, int(22050 * 0.73))
 
     #
-    # NOTE calling eSpeak via subprocess
+    # NOTE calling Tacotron2 via subprocess
     #
     HAS_SUBPROCESS_CALL = True
 
@@ -39,7 +43,7 @@ class CustomTTSWrapper(BaseTTSWrapper):
     def __init__(self, rconf=None, logger=None):
         super(CustomTTSWrapper, self).__init__(rconf=rconf, logger=logger)
         self.set_subprocess_arguments([
-            u"/Users/tugstugi/Projects/aligner/aeneas-helper.sh",                     # path of espeak executable or just "espeak" if it is in your PATH
-            self.CLI_PARAMETER_WAVE_PATH,           # it will be replaced by the actual output file path
-            self.CLI_PARAMETER_TEXT_STDIN           # text is read from stdin
+            tacotron2_synthesizer_path,
+            self.CLI_PARAMETER_WAVE_PATH,  # it will be replaced by the actual output file path
+            self.CLI_PARAMETER_TEXT_STDIN  # text is read from stdin
         ])
