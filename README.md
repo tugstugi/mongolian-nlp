@@ -1,4 +1,4 @@
-This repo will contain a list of useful resources for Mongolian NLP and also my own experiments mostly with PyTorch.
+This repo will contain a list of useful resources for Mongolian NLP. Feel free to contribute.
 
 
 ## Datasets
