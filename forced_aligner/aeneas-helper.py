@@ -8,7 +8,6 @@ A wrapper for the Tacotron2 engine.
 from __future__ import absolute_import
 from __future__ import print_function
 
-from aeneas.language import Language
 from aeneas.ttswrappers.basettswrapper import BaseTTSWrapper
 
 from os import path
@@ -17,15 +16,14 @@ tacotron2_synthesizer_path = path.join(path.dirname(path.realpath(__file__)), 'a
 
 
 class CustomTTSWrapper(BaseTTSWrapper):
-    #
-    # there is no Mongolian support, so use Russian
-    #
-    RUS = Language.RUS
-    """ Russian """
+
+    MON = "mon"
+    """Mongolian"""
+
     LANGUAGE_TO_VOICE_CODE = {
-        RUS: "ru"
+        MON: "mn"
     }
-    DEFAULT_LANGUAGE = RUS
+    DEFAULT_LANGUAGE = MON
 
     # OUTPUT_AUDIO_FORMAT = ("pcm_s16le", 1, 22050)
     #
