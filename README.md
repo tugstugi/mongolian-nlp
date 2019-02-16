@@ -33,7 +33,7 @@ the Mongolian Bible dataset
 * ****`DEMO`**** [Tacotron2? based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
   * 1x female
 * ****`PRODUCT`**** [NVDA/HTS screen reader](https://www.idc-mn.info/english.php) developed by Innovation Development Center for the blind
-  * 1x female (Mongolian National University voice?)
+  * 1x female (Mongolian National University voice)
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
