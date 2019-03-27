@@ -16,7 +16,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
   * ****`DATASET`**** [220K Mongolian personal names](datasets/mongolian_personal_names.csv.gz)
   * ****`DATASET`**** [90K Mongolian clan/family names](datasets/mongolian_clan_names.csv.gz)
-  * ****`DATASET`**** [180K Mongolian company names](datasets/mongolian_company_names.csv.gz)
+  * ****`DATASET`**** [192K Mongolian company names](datasets/mongolian_company_names.csv.gz)
 
 ## Mongolian TTS
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
@@ -38,7 +38,7 @@ the Mongolian Bible dataset
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
   * single voice demo
-  
+
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
 * ****`DEMO`**** [Mongolian script OCR demo](http://ocr.mglip.com/OcrDemo) of the Inner Mongolian university
@@ -51,5 +51,5 @@ the Mongolian Bible dataset
 
 ## Misc
 * ****`PYTORCH`**** [tugstugi/forced_aligner](forced_aligner/) Mongolian forced alignment tool using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2)
-and [readbeyond/aeneas](https://github.com/readbeyond/aeneas) 
+and [readbeyond/aeneas](https://github.com/readbeyond/aeneas)
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/forced_aligner/Forced_Aligner.ipynb)
