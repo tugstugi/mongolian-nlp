@@ -59,6 +59,8 @@ the Mongolian Bible dataset
 
 ## Mongolian Text Classification
 * ****`TF`**** [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
+* ****`SKLEARN`**** / ****`DEMO`**** simple [SVM Colab notebook](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Eduge_SVM.ipynb) classifying the Eduge dataset with around 91% accuracy.
+  * SentencePiece model from [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) is used as the text tokenizer.
 
 ## Misc
 * ****`PYTORCH`**** [tugstugi/forced_aligner](forced_aligner/) Mongolian forced alignment tool using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2)
