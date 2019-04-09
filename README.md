@@ -52,7 +52,7 @@ the Mongolian Bible dataset
 * ****`PRODUCT`**** Chinese and [traditional Mongolian voice input](https://www.aicloud.com/home/product/subpage?key=znsr) from [aicloud.com](https://www.aicloud.com)
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
   * seems to be working only for simple cases (or it works only for Southern Mongolian dialects...)
-  * same system but for [windows](http://index.mzywfy.org.cn:48080/fanyiju/download.jsp?fbclid=IwAR2e112LYhwIT5Ak7raETikq_BcW0JSqDhFsyZwYCWW9k3Usdc1BP6Sr6rk) (according to someone, you have to register with a Chinese identity card to use it)
+  * same system but for [windows](http://index.mzywfy.org.cn:48080/fanyiju/download.jsp) (according to someone, you have to register with a Chinese identity card to use it)
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
