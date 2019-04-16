@@ -19,6 +19,9 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * ****`DATASET`**** [192K Mongolian company names](datasets/mongolian_company_names.csv.gz)
 * ****`DATASET`**** [250 Mongolian most frequent words](datasets/most_frequent_words.csv) from Mongolian news, books and Wikipedia articles. (total 670M words / 2M unique words).
   * These words could be used also as the stop words.
+* ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
+  * 10K sentences annotated by [tugstugi](https://github.com/tugstugi) and [enod](https://github.com/enod)
+  * 4 categories `LOCATION` (6453/1753), `PERSON` (2839/1698), `ORGANIZATION` (4453/1970) and `MISC` (3716/2617)
 
 ## Mongolian Text-to-Speech
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
