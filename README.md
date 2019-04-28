@@ -71,6 +71,13 @@ the Mongolian Bible dataset
 * ****`TF`**** [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
 * ****`SKLEARN`**** / ****`DEMO`**** simple [SVM Colab notebook](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Eduge_SVM.ipynb) classifying the Eduge dataset with around 91% accuracy.
   * SentencePiece model from [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) is used as the text tokenizer.
+  
+## Mongolian Named Entity Recognition
+* ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
+  * for more info see [datasets](https://github.com/tugstugi/mongolian-nlp#datasets)
+* ****`PYTORCH`**** [enod/mongolian-bert-ner](https://github.com/enod/mongolian-bert-ner) BERT based Mongolian NER
+  * uses [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) Mongolian pre-trained BERT models
+* ****`DEMO`**** [NER demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
 
 ## Misc
 * ****`PYTORCH`**** [tugstugi/forced_aligner](forced_aligner/) Mongolian forced alignment tool using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2)
