@@ -20,7 +20,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [250 Mongolian most frequent words](datasets/most_frequent_words.csv) from Mongolian news, books and Wikipedia articles. (total 670M words / 2M unique words).
   * These words could be used also as the stop words.
 * ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
-  * 10K sentences annotated by [tugstugi](https://github.com/tugstugi) and [enod](https://github.com/enod)
+  * 10K sentences annotated by [tugstugi](https://github.com/tugstugi) and [enod](https://github.com/enod) using [doccano](https://github.com/chakki-works/doccano)
   * 4 categories `LOCATION` (6453/1753), `PERSON` (2839/1698), `ORGANIZATION` (4453/1970) and `MISC` (3716/2617)
 
 ## Mongolian Text-to-Speech
@@ -53,6 +53,8 @@ the Mongolian Bible dataset
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
   * single voice demo
+  * with a proprietary 50h Mongolian dataset around 35% WER
+  * can use a 5-gram KenLM binary [model](https://github.com/tugstugi/mongolian-nlp#mongolian-language-model) 
 * ****`PRODUCT`**** Chinese and [traditional Mongolian voice input](https://www.aicloud.com/home/product/subpage?key=znsr) from [aicloud.com](https://www.aicloud.com)
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
   * seems to be working only for simple cases (or it works only for Southern Mongolian dialects...)
