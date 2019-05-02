@@ -33,9 +33,9 @@ the Mongolian Bible dataset
   * ****`DEMO`**** [speaker adaptation Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS_Elbegdorj.ipynb) for the former Mongolian president Elbegdorj. The Tacotron model trained with the 5 hours Mongolian Bible dataset was fine tuned with a 10 minutes dataset created from a Elbegdorj's speech.
 * ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
   * 1x male and 2x female voices
-* ****`DEMO`**** Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК
+* ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~ not working anymore
   * 1x male and 1x female
-* ****`DEMO`**** Tacotron2 [TTS online demo](https://ikon.mn/n/1j9a) of Ikon.MN
+* ****`DEMO`**** Tacotron2 [TTS ~~online~~ demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
   * 1x female (35h)
 * ****`DEMO`**** [HMM based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
   * 1x female
