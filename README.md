@@ -33,9 +33,10 @@ the Mongolian Bible dataset
   * ****`DEMO`**** [speaker adaptation Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS_Elbegdorj.ipynb) for the former Mongolian president Elbegdorj. The Tacotron model trained with the 5 hours Mongolian Bible dataset was fine tuned with a 10 minutes dataset created from a Elbegdorj's speech.
 * ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
   * 1x male and 2x female voices
-* ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~ not working anymore
+* ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~
+  * demo server is currently down
   * 1x male and 1x female
-* ****`DEMO`**** Tacotron2 [TTS ~~online~~ demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
+* ****`DEMO`**** Tacotron2 [TTS demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
   * 1x female (35h)
 * ****`DEMO`**** [HMM based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
   * 1x female
@@ -59,7 +60,7 @@ the Mongolian Bible dataset
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
   * seems to be working only for simple cases (or it works only for Southern Mongolian dialects...)
   * same system but for [windows](http://index.mzywfy.org.cn:48080/fanyiju/download.jsp) (according to someone, you have to register with a Chinese identity card to use it)
-* ~~****`DEMO`**** [Speech recognition](http://asr.mglip.com) of the Inner Mongolian university~~
+* ****`DEMO`**** ~~[Speech recognition](http://asr.mglip.com) of the Inner Mongolian university~~
   * seems to be non functional
 
 ## Mongolian Script
