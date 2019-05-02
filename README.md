@@ -59,6 +59,8 @@ the Mongolian Bible dataset
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
   * seems to be working only for simple cases (or it works only for Southern Mongolian dialects...)
   * same system but for [windows](http://index.mzywfy.org.cn:48080/fanyiju/download.jsp) (according to someone, you have to register with a Chinese identity card to use it)
+* ****`DEMO`**** [Speech recognition](http://asr.mglip.com) of the Inner Mongolian university
+  * seems to be non functional
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
