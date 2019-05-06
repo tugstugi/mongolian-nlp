@@ -17,6 +17,9 @@ for line in lines:
     col2_lines.append(col2)
 
 
+print("total: %i" % len(col1_lines))
+
+
 def convert_bichig(line):
     # dataset contains sometimes '=' for '-гүйсэн' suffix, replace it with 0x202f
     line = line.replace('=', chr(0x202f))
@@ -36,19 +39,19 @@ def convert_cyrillic(line):
 os.makedirs('dataset', exist_ok=True)
 with open('dataset/train.cyrillic', 'w') as f:
     lines = [convert_cyrillic(line) for line in col1_lines[:-6000]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
 with open('dataset/train.bichig', 'w') as f:
     lines = [convert_bichig(line) for line in col2_lines[:-6000]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
 with open('dataset/valid.cyrillic', 'w') as f:
     lines = [convert_cyrillic(line) for line in col1_lines[-6000:-1000]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
 with open('dataset/valid.bichig', 'w') as f:
     lines = [convert_bichig(line) for line in col2_lines[-6000:-1000]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
 with open('dataset/test.cyrillic', 'w') as f:
     lines = [convert_cyrillic(line) for line in col1_lines[-1000:]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
 with open('dataset/test.bichig', 'w') as f:
     lines = [convert_bichig(line) for line in col2_lines[-1000:]]
-    f.write('\n'.join(lines))
+    f.write('\n'.join(lines) + '\n')
