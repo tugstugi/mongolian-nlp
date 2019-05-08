@@ -31,3 +31,5 @@ python ocr.py --checkpoint image2bichig-epoch-0157.pth test.jpg
 ᠡᠮᠦᠨ᠎ᠡ ᠵᠦᠭ ᠦᠨ ᠮᠠᠩᠯᠠᠢ ᠪᠣᠯᠤᠭᠰᠠᠨ ᠡᠯᠡᠯᠡᠳ ᠮᠠᠩᠬᠠᠨ ᠳᠠᠯᠠᠢ ᠤᠳ
  ᠡᠨᠡ ᠪᠣᠯ ᠮᠢᠨᠦ ᠲᠦᠷᠦᠭᠰᠡᠨ ᠨᠤᠲᠤᠭ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠰᠠᠶ᠋ᠢᠬᠠᠨ ᠣᠷᠣᠨ
 ```
+
+You can try it also online on Colab [here](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/MongolianScriptOCR.ipynb).
