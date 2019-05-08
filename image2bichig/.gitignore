@@ -1,2 +1,3 @@
 images/
 synthetic.csv
+*.pth
