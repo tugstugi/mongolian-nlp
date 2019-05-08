@@ -71,10 +71,9 @@ the Mongolian Bible dataset
 * ****`DEMO`**** [Mongolian script OCR demo](http://ocr.mglip.com/OcrDemo) of the Inner Mongolian university
 * ****`PYTORCH`**** [tugstugi/bichig2cyrillic](bichig2cyrillic/) Mongolian script to (and back) cyrillic converter
   * ****`DEMO`**** [Cyrillic to Mongolian Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/bichig2cyrillic/notebooks/Cyrillic2Bichig.ipynb)
-* ****`PYTORCH`**** [Traditional Mongolian OCR using CRNN](image2bichig/)
+* ****`PYTORCH`**** [tugstugi/image2bichig](image2bichig/) Traditional Mongolian OCR using CRNN
   * ****`DEMO`**** [OCR Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/MongolianScriptOCR.ipynb)
   * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp)
-Cyrillic2Bichig
 ## Mongolian Text Classification
 * ****`TF`**** [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
 * ****`SKLEARN`**** / ****`DEMO`**** simple [SVM Colab notebook](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Eduge_SVM.ipynb) classifying the Eduge dataset with around 91% accuracy.
