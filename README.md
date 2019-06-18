@@ -56,7 +56,7 @@ the Mongolian Bible dataset
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
-  * ****`DEMO`**** [online demo](https://demo.soyombo.net/)
+  * ****`DEMO`**** [online demo](https://chimege.mn/)
   * a proprietary dataset is used
 * ****`PRODUCT`**** Chinese and [traditional Mongolian voice input](https://www.aicloud.com/home/product/subpage?key=znsr) from [aicloud.com](https://www.aicloud.com)
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
