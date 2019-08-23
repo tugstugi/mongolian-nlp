@@ -74,10 +74,14 @@ the Mongolian Bible dataset
 * ****`PYTORCH`**** [tugstugi/image2bichig](image2bichig/) Traditional Mongolian OCR using CRNN
   * ****`DEMO`**** [OCR Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/MongolianScriptOCR.ipynb)
   * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp)
+
 ## Mongolian Text Classification
-* ****`TF`**** [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
+* ****`TF2`**** [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification)
 * ****`SKLEARN`**** / ****`DEMO`**** simple [SVM Colab notebook](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Eduge_SVM.ipynb) classifying the Eduge dataset with around 91% accuracy.
   * SentencePiece model from [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) is used as the text tokenizer.
+
+## Transliteration for Cyrillic Mongolian Text
+* ****`TF2`**** [sharavsambuu/cyrillic-mongolian-transliteration](https://colab.research.google.com/drive/10Eq_VvR84oEOBUK5EflvAB35ZcrlQwGm)
 
 ## Mongolian Named Entity Recognition
 * ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
