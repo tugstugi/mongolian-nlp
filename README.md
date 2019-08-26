@@ -26,6 +26,8 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp) created from Mongolian song lyrics and dictionary
   * 80K images
   * without any data augmentation, for augmenting data use external libraries like [albumentations](https://github.com/albu/albumentations).
+* ****`DATASET`**** [Handwritten Mongolian Cyrillic Characters Database](https://www.kaggle.com/vimpigro/handwritten-mongolian-cyrillic-characters-database/version/1)
+  * 28x28 gray scale, 350k images
 
 ## Mongolian Text-to-Speech
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
