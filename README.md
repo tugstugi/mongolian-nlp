@@ -26,8 +26,9 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp) created from Mongolian song lyrics and dictionary
   * 80K images
   * without any data augmentation, for augmenting data use external libraries like [albumentations](https://github.com/albu/albumentations).
-* ****`DATASET`**** [Handwritten Mongolian Cyrillic Characters Database](https://www.kaggle.com/vimpigro/handwritten-mongolian-cyrillic-characters-database/version/1)
+* ****`DATASET`**** [Handwritten Mongolian Cyrillic Characters Database](https://www.kaggle.com/vimpigro/handwritten-mongolian-cyrillic-characters-database/version/1) of the Mongolian University of Science and Technology
   * 28x28 gray scale, 350k images
+  * [dataset description](https://www.studocu.com/en/document/mongolian-university-of-science-and-technology/information-technology/other/hmcc-with-erdenechimeg/5451932/view)
 
 ## Mongolian Text-to-Speech
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
@@ -42,7 +43,7 @@ the Mongolian Bible dataset
 * ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~
   * demo server is currently down
   * 1x male and 1x female
-* ****`DEMO`**** Tacotron2 [TTS demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
+* ****`SAMPLES`**** Tacotron2 [TTS demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
   * 1x female (35h)
 * ****`DEMO`**** [HMM based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
   * 1x female
