@@ -23,6 +23,8 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
   * 10K sentences annotated by [tugstugi](https://github.com/tugstugi) and [enod](https://github.com/enod) using [doccano](https://github.com/chakki-works/doccano)
   * 4 categories `LOCATION` (6453/1753), `PERSON` (2839/1698), `ORGANIZATION` (4453/1970) and `MISC` (3716/2617)
+* ****`DATASET`**** [Mongolian POS dataset](http://www.panl10n.net/center-for-research-on-language-processing-crlp-national-university-of-mongolia-mongolia/) of the Mongolian National University
+  * 100k words
 * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp) created from Mongolian song lyrics and dictionary
   * 80K images
   * without any data augmentation, for augmenting data use external libraries like [albumentations](https://github.com/albu/albumentations).
