@@ -40,7 +40,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 the Mongolian Bible dataset
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS.ipynb)
   * ****`DEMO`**** [speaker adaptation Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Tacotron_MongolianTTS_Elbegdorj.ipynb) for the former Mongolian president Elbegdorj. The Tacotron model trained with the 5 hours Mongolian Bible dataset was fine tuned with a 10 minutes dataset created from a Elbegdorj's speech.
-* ****`PYTORCH`**** [Chimege TTS](https://chimege.mn/tts)
+* ****`PYTORCH`**** [Chimege TTS demo](https://chimege.mn/tts)
   * 1x female
   * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
 * ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
@@ -65,7 +65,7 @@ the Mongolian Bible dataset
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
-  * ****`DEMO`**** [online demo](https://chimege.mn/)
+  * ****`DEMO`**** [Chimege Speech Recognition](https://chimege.mn/stt)
   * a proprietary dataset is used
 * ****`PRODUCT`**** Chinese and [traditional Mongolian voice input](https://www.aicloud.com/home/product/subpage?key=znsr) from [aicloud.com](https://www.aicloud.com)
   * direct [link](https://hci-app.oss-cn-beijing.aliyuncs.com/aicloud_input/HciCloudInputAndroid.apk) to the APK file
