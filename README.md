@@ -50,6 +50,7 @@ the Mongolian Bible dataset
   * 1x male and 1x female
 * ****`SAMPLES`**** Tacotron2 [TTS demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
   * 1x female (35h)
+  * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
 * ****`DEMO`**** [HMM based TTS online demo](http://mtts.mglip.com/) of the Inner Mongolian university
   * 1x female
 * ****`PRODUCT`**** [NVDA/HTS screen reader](https://www.idc-mn.info/english.php) developed by Innovation Development Center for the blind
