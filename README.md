@@ -17,6 +17,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * ****`DATASET`**** [220K Mongolian personal names](datasets/mongolian_personal_names.csv.gz)
   * ****`DATASET`**** [90K Mongolian clan/family names](datasets/mongolian_clan_names.csv.gz)
   * ****`DATASET`**** [192K Mongolian company names](datasets/mongolian_company_names.csv.gz)
+* ****`DATASET`**** [195 country (with capital cities) names in Mongolian](datasets/countries.csv)
 * ****`DATASET`**** [250 Mongolian most frequent words](datasets/most_frequent_words.csv) from Mongolian news, books and Wikipedia articles. (total 670M words / 2M unique words).
   * These words could be used also as the stop words.
 * ****`DATASET`**** [500 Mongolian abbreviations](datasets/mongolian_abbreviations.csv)
