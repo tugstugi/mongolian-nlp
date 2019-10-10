@@ -105,3 +105,5 @@ the Mongolian Bible dataset
 and [readbeyond/aeneas](https://github.com/readbeyond/aeneas)
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/forced_aligner/Forced_Aligner.ipynb)
 * ****`TF2`**** cyrillic transliteration Colab notebook [sharavsambuu/cyrillic-mongolian-transliteration](https://colab.research.google.com/drive/10Eq_VvR84oEOBUK5EflvAB35ZcrlQwGm)
+* ****`DATASET`**** 1M back-translated MN->EN sentence dataset [download link](https://drive.google.com/file/d/14AtTVgibirSdHYTBFM9G1XPS7DvM5SdE/view)
+  * [sharavsambuu/english-mongolian-nmt-dataset-augmentation](https://github.com/sharavsambuu/english-mongolian-nmt-dataset-augmentation)
