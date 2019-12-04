@@ -34,6 +34,8 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [Handwritten Mongolian Cyrillic Characters Database](https://www.kaggle.com/vimpigro/handwritten-mongolian-cyrillic-characters-database/version/1) of the Mongolian University of Science and Technology
   * 28x28 gray scale, 350k images
   * [dataset description](https://www.studocu.com/en/document/mongolian-university-of-science-and-technology/information-technology/other/hmcc-with-erdenechimeg/5451932/view)
+* ****`DATASET`**** [Mongolian Wordnet](https://github.com/kbatsuren/monwn) of the Mongolian National University
+  * 26875 words, 2979 glosses, 23665 synsets, 213 examples
 
 ## Mongolian Text-to-Speech
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
