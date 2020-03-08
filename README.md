@@ -81,6 +81,8 @@ the Mongolian Bible dataset
 * ****`DEMO`**** ~~[Speech recognition](http://asr.mglip.com) of the Inner Mongolian university~~
   * seems to be non functional
 * ****`PRODUCT`**** [Huawei cloud ASR](https://www.huaweicloud.com/en-us/product/rasr.html) supports minority languages such as Mongolian, Tibetan, and Uyghur.
+* ****`PRODUCT`**** [Google Cloud Speech-to-text](https://cloud.google.com/speech-to-text/docs/languages)
+  * 20% WER on a 3000 audio privata test dataset
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
