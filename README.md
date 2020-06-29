@@ -69,6 +69,7 @@ the Mongolian Bible dataset
 * ***`TF`*** / ***`PYTORCH`*** [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) pretrained Mongolian [BERT](https://arxiv.org/abs/1810.04805) models
   * trained by [tugstugi](https://github.com/tugstugi), [enod](https://github.com/enod) and [sharavsambuu](https://github.com/sharavsambuu)
   * [nabar](https://github.com/nabar) sponsored 5x TPUs.
+* ***`PYTORCH`*** [bayartsogt-ya/albert-mongolian](https://github.com/bayartsogt-ya/albert-mongolian) pretrained Mongolian [ALBERT](https://arxiv.org/abs/1909.11942)
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
