@@ -5,6 +5,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** LJSpeech like male voice TTS [dataset](datasets/MBSpeech-1.0-csv.zip) created from the Mongolian Bible
   * used in [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * use [dl_and_preprop_dataset.py](https://github.com/tugstugi/pytorch-dc-tts/blob/master/dl_and_preprop_dataset.py) to download the audio files
+* ****`DATASET`**** LJSpeech like Kalmyk (West Mongolian) female voice TTS [dataset](https://drive.google.com/uc?id=12JbPAwNeH-qRD1Lz1JfY6Rc2jetPddbG) created from the Kalmyk Bible (2 hours)
 * ****`DATASET`**** [Eduge news classification dataset](datasets/eduge.csv.gz) provided by [Bolorsoft LLC](https://bolorsoft.com/)
   * used to train the [Eduge.mn](http://eduge.mn/) production news classifier
   * 75K news with 9 categories: `урлаг соёл`, `эдийн засаг`, `эрүүл мэнд`, `хууль`, `улс төр`,
