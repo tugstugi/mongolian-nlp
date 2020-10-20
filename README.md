@@ -115,3 +115,6 @@ and [readbeyond/aeneas](https://github.com/readbeyond/aeneas)
 * ****`TF2`**** cyrillic transliteration Colab notebook [sharavsambuu/cyrillic-mongolian-transliteration](https://colab.research.google.com/drive/10Eq_VvR84oEOBUK5EflvAB35ZcrlQwGm)
 * ****`DATASET`**** 1M back-translated MN->EN sentence dataset [download link](https://drive.google.com/file/d/14AtTVgibirSdHYTBFM9G1XPS7DvM5SdE/view)
   * [sharavsambuu/english-mongolian-nmt-dataset-augmentation](https://github.com/sharavsambuu/english-mongolian-nmt-dataset-augmentation)
+* ****`DICTIONARY`**** [Mongolian digitalized dictionaries](http://hkuri.cneas.tohoku.ac.jp/project1/ftsdata/list?groupId=14) from Center for Northeast Asian of the Tohoku University in Japan
+  * for usage see [Digitizing the Mongolian Language: An Introduction to the Polyglot “Online Dictionaries and Full-text Search of Mongolian Languages and Written Manchu”](https://digitalorientalist.com/2020/10/02/digitizing-the-mongolian-language-an-introduction-to-the-polyglot-online-dictionaries-and-full-text-search-of-mongolian-languages-and-written-manchu/)
+  * it includes also IPA pronuncations for Mongolian words
