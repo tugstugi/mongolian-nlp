@@ -55,6 +55,7 @@ the Mongolian Bible dataset
 * ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~
   * demo server is currently down
   * 1x male and 1x female
+  * [female voice samples](http://nhrcm.gov.mn/%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D/%D0%BD%D2%AF%D0%B1-%D1%8B%D0%BD-%D1%85%D2%AF%D0%BD%D0%B8%D0%B9-%D1%8D%D1%80%D1%85%D0%B8%D0%B9%D0%BD-%D0%BE%D0%BB%D0%BE%D0%BD-%D1%83%D0%BB%D1%81%D1%8B%D0%BD-%D1%81%D1%83%D1%83%D1%80%D1%8C-%D0%B3%D1%8D%D1%80%D1%8D%D1%8D/)
 * ****`SAMPLES`**** Tacotron2 [TTS demo samples](https://ikon.mn/n/1j9a) of Ikon.MN
   * 1x female (35h)
   * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
