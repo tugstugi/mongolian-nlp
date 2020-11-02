@@ -15,6 +15,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [online news corpus](https://yadi.sk/d/z5e3MVnKvFvF6w?fbclid=IwAR2wRJ4fRRMSDI8rhbNLdU2n_RiK08hU2rKwXwI7rc6JN2YNTeTna8xOOlg)
   * 700 million words
 * ****`DATASET`**** [Digital Archive of Mongolian Newspapers 1990-1995](https://eap.bl.uk/collection/EAP010-1?f%5B0%5D=ss_simplified_type%3AFile) of the British Library
+* [Common Crawl Mongolian dataset](http://data.statmt.org/cc-100/)
 * [opendata.burtgel.gov.mn](http://opendata.burtgel.gov.mn)
   * ****`DATASET`**** [220K Mongolian personal names](datasets/mongolian_personal_names.csv.gz)
   * ****`DATASET`**** [90K Mongolian clan/family names](datasets/mongolian_clan_names.csv.gz)
