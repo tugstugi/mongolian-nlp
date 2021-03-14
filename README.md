@@ -76,6 +76,7 @@ the Mongolian Bible dataset
   * trained by [tugstugi](https://github.com/tugstugi), [enod](https://github.com/enod) and [sharavsambuu](https://github.com/sharavsambuu)
   * [nabar](https://github.com/nabar) sponsored 5x TPUs.
 * ***`PYTORCH`*** [bayartsogt-ya/albert-mongolian](https://github.com/bayartsogt-ya/albert-mongolian) pretrained Mongolian [ALBERT](https://arxiv.org/abs/1909.11942)
+* ***`PYTORCH`*** [robertritz/NLP](https://github.com/robertritz/NLP) ULMFiT experiments
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
@@ -90,6 +91,9 @@ the Mongolian Bible dataset
 * ****`PRODUCT`**** [Huawei cloud ASR](https://www.huaweicloud.com/en-us/product/rasr.html) supports minority languages such as Mongolian, Tibetan, and Uyghur.
 * ****`PRODUCT`**** [Google Cloud Speech-to-text](https://cloud.google.com/speech-to-text/docs/languages)
   * 20% WER on a 3000 audio privata test dataset
+* ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on Mongolian Common Voice
+  * ****`DEMO`**** [OCR Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
+  * 50% WER
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
