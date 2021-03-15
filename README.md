@@ -92,7 +92,7 @@ the Mongolian Bible dataset
 * ****`PRODUCT`**** [Google Cloud Speech-to-text](https://cloud.google.com/speech-to-text/docs/languages)
   * 20% WER on a 3000 audio privata test dataset
 * ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on Mongolian Common Voice
-  * ****`DEMO`**** [OCR Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
+  * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
   * 50% WER
 
 ## Mongolian Script
