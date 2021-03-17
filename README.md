@@ -94,6 +94,8 @@ the Mongolian Bible dataset
 * ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on Mongolian Common Voice
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
   * 50% WER
+* ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on the Kalmyk Bible dataset.
+  * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Kalmyk.ipynb)
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
