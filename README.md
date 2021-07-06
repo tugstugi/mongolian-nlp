@@ -77,6 +77,7 @@ the Mongolian Bible dataset
   * [nabar](https://github.com/nabar) sponsored 5x TPUs.
 * ***`PYTORCH`*** [bayartsogt-ya/albert-mongolian](https://github.com/bayartsogt-ya/albert-mongolian) pretrained Mongolian [ALBERT](https://arxiv.org/abs/1909.11942)
 * ***`PYTORCH`*** [robertritz/NLP](https://github.com/robertritz/NLP) ULMFiT experiments
+* ***`PYTORCH`*** [huggingface.co/bayartsogt/mongolian-gpt2](https://huggingface.co/bayartsogt/mongolian-gpt2) Mongolian GPT-2 model
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
