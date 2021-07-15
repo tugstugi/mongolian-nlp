@@ -78,6 +78,7 @@ the Mongolian Bible dataset
 * ***`PYTORCH`*** [bayartsogt-ya/albert-mongolian](https://github.com/bayartsogt-ya/albert-mongolian) pretrained Mongolian [ALBERT](https://arxiv.org/abs/1909.11942)
 * ***`PYTORCH`*** [robertritz/NLP](https://github.com/robertritz/NLP) ULMFiT experiments
 * ***`PYTORCH`*** [huggingface.co/bayartsogt/mongolian-gpt2](https://huggingface.co/bayartsogt/mongolian-gpt2) Mongolian GPT-2 model
+* ***`PYTORCH`*** [huggingface.co/bayartsogt/mongolian-roberta-base](https://huggingface.co/bayartsogt/mongolian-roberta-base) Mongolian Roberta base model
 
 ## Mongolian Speech Recognition
 * ****`PYTORCH`**** [tugstugi/mongolian-speech-recognition](https://github.com/tugstugi/mongolian-speech-recognition)
@@ -97,6 +98,8 @@ the Mongolian Bible dataset
   * 50% WER
 * ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on the Kalmyk Bible dataset.
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Kalmyk.ipynb)
+* ****`TF`**** [coqui.ai mongolian speech recognition](https://coqui.ai/mongolian/itml/v0.1.1) trained on Mongolian CommonVoice
+  * 90.08% WER 
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
