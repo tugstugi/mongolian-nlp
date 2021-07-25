@@ -6,6 +6,9 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * used in [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * use [dl_and_preprop_dataset.py](https://github.com/tugstugi/pytorch-dc-tts/blob/master/dl_and_preprop_dataset.py) to download the audio files
 * ****`DATASET`**** LJSpeech like Kalmyk (West Mongolian) female voice TTS [dataset](https://drive.google.com/uc?id=12JbPAwNeH-qRD1Lz1JfY6Rc2jetPddbG) created from the Kalmyk Bible (2 hours)
+* ****`DATASET`**** 300 hours [Kalmyk synthetic STT dataset](https://www.dropbox.com/s/thog6q63w53ub99/kalmyk_synthetic_stt_dataset_v2.tar.gz) created by using a voice conversion model
+  * each WAV has a different text created from Kalmyk books
+  * target voices are from the VCTK dataset
 * ****`DATASET`**** [Eduge news classification dataset](datasets/eduge.csv.gz) provided by [Bolorsoft LLC](https://bolorsoft.com/)
   * used to train the [Eduge.mn](http://eduge.mn/) production news classifier
   * 75K news with 9 categories: `урлаг соёл`, `эдийн засаг`, `эрүүл мэнд`, `хууль`, `улс төр`,
@@ -98,10 +101,13 @@ the Mongolian Bible dataset
 * ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on Mongolian Common Voice
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
   * 50% WER
-* ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on the Kalmyk Bible dataset.
-  * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Kalmyk.ipynb)
+* ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) trained on Kalmyk dataset
+  * pretrained on 500 hours Kalmyk TV recordings and 1000 hours Mongolian speech recognition dataset
+  * finetuned on 300 hours synthetic Kalmyk STT dataset created by voice conversion
+  * 50% WER on a private test set created from Kalmyk TV recordnings, on clean voice recordings, it should have much lower WER
+  * ****`DEMO`**** [https://huggingface.co/tugstugi/wav2vec2-large-xlsr-53-kalmyk](https://huggingface.co/tugstugi/wav2vec2-large-xlsr-53-kalmyk)
 * ****`TF`**** [coqui.ai mongolian speech recognition](https://coqui.ai/mongolian/itml/v0.1.1) trained on Mongolian CommonVoice
-  * 90.08% WER 
+  * 90.08% WER
 
 ## Mongolian Script
 * ****`DEMO`**** [Cyrillic to Mongolian script converter demo](http://trans.mglip.com/EnglishC2T.aspx) of the Inner Mongolian university
