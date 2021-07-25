@@ -10,6 +10,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * each WAV has a different text created from Kalmyk books
   * source voice is the Kalmyk Bible female TTS
   * target voices are from the VCTK dataset
+  * an example WAV: https://twitter.com/tugstugi/status/1409111296897912835
 * ****`DATASET`**** [Eduge news classification dataset](datasets/eduge.csv.gz) provided by [Bolorsoft LLC](https://bolorsoft.com/)
   * used to train the [Eduge.mn](http://eduge.mn/) production news classifier
   * 75K news with 9 categories: `урлаг соёл`, `эдийн засаг`, `эрүүл мэнд`, `хууль`, `улс төр`,
