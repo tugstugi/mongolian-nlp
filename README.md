@@ -46,6 +46,9 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * 26875 words, 2979 glosses, 23665 synsets, 213 examples
 
 ## Mongolian Text-to-Speech
+* ****`TF`**** [ttslr/MonTTS](https://github.com/ttslr/MonTTS)
+  * ****`DEMO`**** [Speech samples](https://github.com/ttslr/MonTTS/tree/main/prediction/mon_inference_fastspeech2)
+  * ****`DATASET`**** [MonSpeech](https://github.com/ttslr/MonTTS/tree/main/MonSpeech-samples) of the Inner Mongolia University
 * ****`PYTORCH`**** [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/pytorch-dc-tts/blob/master/notebooks/MongolianTTS.ipynb)
   * ****`DATASET`**** LJSpeech like male voice [dataset](datasets/MBSpeech-1.0-csv.zip) created from the Mongolian Bible
