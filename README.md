@@ -105,7 +105,7 @@ the Mongolian Bible dataset
   * seems to be non functional
 * ****`PRODUCT`**** [Huawei cloud ASR](https://www.huaweicloud.com/en-us/product/rasr.html) supports minority languages such as Mongolian, Tibetan, and Uyghur.
 * ****`PRODUCT`**** [Google Cloud Speech-to-text](https://cloud.google.com/speech-to-text/docs/languages)
-  * 20% WER on a 3000 audio privata test dataset
+  * 20% WER on a 3000 audio private test dataset
 * ****`PYTORCH`**** [Wav2Vec2 XLSR](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/) finetuned on Mongolian Common Voice
   * ****`DEMO`**** [Colab online demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Wav2Vec2_XLSR_Mongolian.ipynb)
   * 50% WER
