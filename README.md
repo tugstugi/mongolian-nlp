@@ -69,9 +69,10 @@ the Mongolian Bible dataset
   * 1x female
 * ****`DEMO`**** MTL-Tacotron [TTS demo samples](https://ttslr.github.io/SPL2020/) of the Inner Mongolian university & National University of Singapore
   * 1x female
-* ****`TF`**** [ttslr/MonTTS](https://github.com/ttslr/MonTTS) Inner Mongolian TTS
+* ****`TF`**** [ttslr/MonTTS](https://github.com/ttslr/MonTTS) Inner Mongolian TTS training code
   * ****`SAMPLES`**** [Speech samples](https://github.com/ttslr/MonTTS/tree/main/prediction/mon_inference_fastspeech2)
   * ****`DATASET SAMPLES`**** [MonSpeech](https://github.com/ttslr/MonTTS/tree/main/MonSpeech-samples) of the Inner Mongolia University
+  * dataset and pretrained models are not available
 * ****`PRODUCT`**** [NVDA/HTS screen reader](https://www.idc-mn.info/english.php) developed by Innovation Development Center for the blind
   * 1x female (Mongolian National University voice)
 * ****`PYTORCH/DEMO`**** [Kalmyk TTS demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Kalmyk_NVidia_Tacotron2_Waveglow.ipynb) Kalmyk is a Mongolic language spoken in Russia
