@@ -78,7 +78,7 @@ the Mongolian Bible dataset
 * ****`PYTORCH/DEMO`**** [Kalmyk TTS demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Kalmyk_NVidia_Tacotron2_Waveglow.ipynb) Kalmyk is a Mongolic language spoken in Russia
   * [dataset](https://drive.google.com/uc?id=12JbPAwNeH-qRD1Lz1JfY6Rc2jetPddbG) created from the Kalmyk Bible (2 hours)
   * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
-* ****`PYTORCH/DEMO`**** [Kalmyk TTS demo from Silero](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/SileroKalmykSTT.ipynb) Kalmyk is a Mongolic language spoken in Russia
+* ****`PYTORCH/DEMO`**** [Kalmyk TTS demo from Silero](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/SileroKalmykTTS.ipynb) Kalmyk is a Mongolic language spoken in Russia
   * [snakers4/silero-models](https://github.com/snakers4/silero-models)
 
 ## Mongolian Language Model
