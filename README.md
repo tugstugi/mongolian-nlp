@@ -33,7 +33,7 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 * ****`DATASET`**** [Mongolian NER dataset](datasets/NER_v1.0.json.gz) created from Mongolian politics and sport news
   * 10K sentences annotated by [tugstugi](https://github.com/tugstugi) and [enod](https://github.com/enod) using [doccano](https://github.com/chakki-works/doccano)
   * 4 categories `LOCATION` (6453/1753), `PERSON` (2839/1698), `ORGANIZATION` (4453/1970) and `MISC` (3716/2617)
-* ****`DATASET`**** [Mongolian POS dataset](http://www.panl10n.net/center-for-research-on-language-processing-crlp-national-university-of-mongolia-mongolia/) of the Mongolian National University
+* ****`DATASET`**** [Mongolian POS dataset](http://www.panl10n.net/center-for-research-on-language-processing-crlp-national-university-of-mongolia-mongolia/) of the National University of Mongolia
   * 100k words
   * used [POS tagsets](https://www.aclweb.org/anthology/W09-3415)
 * ****`DATASET`**** [Traditional Mongolian synthetic OCR dataset](https://drive.google.com/file/d/1s9t22tRI22uolUv1bv023xj-x68gu1dp) created from Mongolian song lyrics and dictionary
@@ -65,7 +65,7 @@ the Mongolian Bible dataset
 * ****`PYTORCH`**** [Chimege TTS demo](https://chimege.mn/tts)
   * 1x female
   * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
-* ****`DEMO`**** HMM [TTS online demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
+* ****`DEMO`**** HMM [TTS online demo of the National University of Mongolia](http://172.104.34.197/nlp-web-demo/)
   * 1x male and 2x female voices
 * ****`DEMO`**** ~~Yet another HMM? [TTS online demo](http://178.128.108.243/tts/) from “Мон Спийч Ай Ти” ХХК~~
   * demo server is currently down
@@ -83,7 +83,7 @@ the Mongolian Bible dataset
   * ****`DATASET SAMPLES`**** [MonSpeech](https://github.com/ttslr/MonTTS/tree/main/MonSpeech-samples) of the Inner Mongolia University
   * dataset and pretrained models are not available
 * ****`PRODUCT`**** [NVDA/HTS screen reader](https://www.idc-mn.info/english.php) developed by Innovation Development Center for the blind
-  * 1x female (Mongolian National University voice)
+  * 1x female (National University of Mongolia voice)
 * ****`PYTORCH/DEMO`**** [Kalmyk TTS demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Kalmyk_NVidia_Tacotron2_Waveglow.ipynb) Kalmyk is a Mongolic language spoken in Russia
   * [dataset](https://drive.google.com/uc?id=12JbPAwNeH-qRD1Lz1JfY6Rc2jetPddbG) created from the Kalmyk Bible (2 hours)
   * [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2/) + [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
@@ -146,7 +146,7 @@ the Mongolian Bible dataset
   * for more info see [datasets](https://github.com/tugstugi/mongolian-nlp#datasets)
 * ****`PYTORCH`**** [enod/mongolian-bert-ner](https://github.com/enod/mongolian-bert-ner) BERT based Mongolian NER
   * uses [tugstugi/mongolian-bert](https://github.com/tugstugi/mongolian-bert) Mongolian pre-trained BERT models
-* ****`DEMO`**** [NER demo of the Mongolian National University](http://172.104.34.197/nlp-web-demo/)
+* ****`DEMO`**** [NER demo of the National University of Mongolia](http://172.104.34.197/nlp-web-demo/)
 
 ## Misc
 * ****`PYTORCH`**** [tugstugi/forced_aligner](forced_aligner/) Mongolian forced alignment tool using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2)
