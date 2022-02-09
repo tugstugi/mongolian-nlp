@@ -44,9 +44,9 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
   * [dataset description](https://www.studocu.com/en/document/mongolian-university-of-science-and-technology/information-technology/other/hmcc-with-erdenechimeg/5451932/view)
 * ****`DATASET`**** [Mongolian Wordnet](https://github.com/kbatsuren/monwn) of the National University of Mongolia
   * 26875 words, 2979 glosses, 23665 synsets, 213 examples
-* ****`DATASET`**** [Inflectional Morphology](https://github.com/unimorph/khk) from UniMorph 4.0
+* ****`DATASET`**** [Mongolian Inflectional Morphology](https://github.com/unimorph/khk) from UniMorph 4.0
   * 2085 lemmas and 14592 inflections (+ morpheme segmentations)
-* ****`DATASET`**** [Derivational Morphology](https://github.com/kbatsuren/MorphyNet) from MorphyNet
+* ****`DATASET`**** [Mongolian Derivational Morphology](https://github.com/kbatsuren/MorphyNet) from MorphyNet
   * 1410 lemmas, 1629 derivations, and 229 derivational suffixes.
 
 * ****`DATASET`**** [Multilingual Spoken Words](https://mlcommons.org/en/multilingual-spoken-words/) multilingual keyword spotting dataset
