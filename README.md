@@ -2,6 +2,10 @@ This repo will contain a list of useful resources for Mongolian NLP. Feel free t
 
 
 ## Datasets
+* ****`DATASET`**** ~8 hours Mongolian TTS dataset:[MnTTS](datasets/MBSpeech-1.0-csv.zip) created from the Inner Mongolia University, China
+  * [Application Entry](http://mglip.com/corpus/corpus_detail.html?corpusid=20220819185345)
+  * [Source code of TTS model](https://github.com/walker-hyf/MnTTS)
+  * [Paper](https://arxiv.org/abs/2209.10848)
 * ****`DATASET`**** LJSpeech like male voice TTS [dataset](datasets/MBSpeech-1.0-csv.zip) created from the Mongolian Bible
   * used in [tugstugi/pytorch-dc-tts](https://github.com/tugstugi/pytorch-dc-tts)
   * use [dl_and_preprop_dataset.py](https://github.com/tugstugi/pytorch-dc-tts/blob/master/dl_and_preprop_dataset.py) to download the audio files
@@ -82,6 +86,11 @@ the Mongolian Bible dataset
   * ****`SAMPLES`**** [Speech samples](https://github.com/ttslr/MonTTS/tree/main/prediction/mon_inference_fastspeech2)
   * ****`DATASET SAMPLES`**** [MonSpeech](https://github.com/ttslr/MonTTS/tree/main/MonSpeech-samples) of the Inner Mongolia University
   * dataset and pretrained models are not available
+* ****`TF`**** [walker-hyf/MnTTS](https://github.com/walker-hyf/MnTTS) Inner Mongolian TTS dataset and training code 
+  * ****`SAMPLES`**** [Speech samples](https://github.com/walker-hyf/MnTTS/tree/main/prediction/MnTTS_inference)
+  * ****`DATASET`**** [MnTTS](http://mglip.com/corpus/corpus_detail.html?corpusid=20220819185345) of the Inner Mongolia University
+  * ****`Pretrained Model`**** [download link](https://drive.google.com/file/d/1eVtGQvRd7UKAEHOCricQ5RSAgminoCd_/view)
+  * dataset and pretrained models are available :)
 * ****`PRODUCT`**** [NVDA/HTS screen reader](https://www.idc-mn.info/english.php) developed by Innovation Development Center for the blind
   * 1x female (National University of Mongolia voice)
 * ****`PYTORCH/DEMO`**** [Kalmyk TTS demo](https://colab.research.google.com/github/tugstugi/mongolian-nlp/blob/master/misc/Kalmyk_NVidia_Tacotron2_Waveglow.ipynb) Kalmyk is a Mongolic language spoken in Russia
